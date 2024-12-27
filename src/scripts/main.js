@@ -1,7 +1,7 @@
 'use strict';
 
 // write your code here
-const rows = document.querySelector('tr');
+const rows = document.querySelectorAll('tr');
 
 rows.forEach((row) => {
   const cells = row.children;
